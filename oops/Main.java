@@ -1,0 +1,53 @@
+package com.java.oops;
+
+public class Main {
+    public static void main(String[] args) {
+        customer cu=new customer();
+        System.out.println("object without arguments : ");
+        System.out.println("Name : "+cu.name);
+        System.out.println("Age : "+cu.age);
+        System.out.println("phone number : "+cu.phoneNo);
+        System.out.println("Email : "+cu.email);
+        System.out.println("customer Id : "+cu.cos_Id);
+        System.out.println("Gender : "+cu.gender);
+        System.out.println("Region : "+cu.region);
+        System.out.println("object with arguments : ");
+        customer cu2=new customer("pranay","8919836703",20,"M",6699,"pranaypuvvati@gmail.com","India");
+        System.out.println("Name : "+cu2.name);
+        System.out.println("Age : "+cu2.age);
+        System.out.println("phone number : "+cu2.phoneNo);
+        System.out.println("Email : "+cu2.email);
+        System.out.println("customer Id : "+cu2.cos_Id);
+        System.out.println("Gender : "+cu2.gender);
+        System.out.println("Region : "+cu2.region);
+        System.out.println("object 2 with arguments : ");
+        customer cu3=new customer("Samuel","8121914849",30,"M",6690,"samuelp@gmail.com","India");
+        System.out.println("Name : "+cu3.name);
+        System.out.println("Age : "+cu3.age);
+        System.out.println("phone number : "+cu3.phoneNo);
+        System.out.println("Email : "+cu3.email);
+        System.out.println("customer Id : "+cu3.cos_Id);
+        System.out.println("Gender : "+cu3.gender);
+        System.out.println("Region : "+cu3.region);
+        System.out.println("object 3 with arguments : ");
+        customer cu4=new customer("Vaishnavi","9885419060",45,"-",6670,"vaishnavich@gmail.com","India");
+        System.out.println("Name : "+cu4.name);
+        System.out.println("Age : "+cu4.age);
+        System.out.println("phone number : "+cu4.phoneNo);
+        System.out.println("Email : "+cu4.email);
+        System.out.println("customer Id : "+cu4.cos_Id);
+        System.out.println("Gender : "+cu4.gender);
+        System.out.println("Region : "+cu4.region);
+        customer cu5=new customer("Pranay","9885058158");
+        System.out.println("object with only 2  arguments : ");
+        System.out.println("Name : "+cu5.name);
+        System.out.println("Age : "+cu5.age);
+        System.out.println("phone number : "+cu5.phoneNo);
+        System.out.println("Email : "+cu5.email);
+        System.out.println("customer Id : "+cu5.cos_Id);
+        System.out.println("Gender : "+cu5.gender);
+        System.out.println("Region : "+cu5.region);
+
+
+    }
+}
