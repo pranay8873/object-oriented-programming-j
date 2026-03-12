@@ -20,6 +20,33 @@ public class ordermain {
         System.out.println("Cost of order : "+o2.price);
         System.out.println("Rating for order : "+o2.rating);
         System.out.println("Weight of order : "+o2.weight);
+        order o3=new order("brahma teja",50);
+        System.out.println("order object without passing arguments : ");
+        System.out.println("Name of ordered person : "+o3.name);
+        System.out.println("order Id : "+o3.id);
+        System.out.println("order category : "+o3.category);
+        System.out.println("Ordered brand : "+o3.brand);
+        System.out.println("Cost of order : "+o3.price);
+        System.out.println("Rating for order : "+o3.rating);
+        System.out.println("Weight of order : "+o3.weight);
+        order o4=new order("brahma teja",50);
+        System.out.println("order object with 2 arguments : ");
+        System.out.println("Name of ordered person : "+o4.name);
+        System.out.println("order Id : "+o4.id);
+        System.out.println("order category : "+o4.category);
+        System.out.println("Ordered brand : "+o4.brand);
+        System.out.println("Cost of order : "+o4.price);
+        System.out.println("Rating for order : "+o4.rating);
+        System.out.println("Weight of order : "+o4.weight);
+        order o5=new order("brahma teja",50,"food");
+        System.out.println("order object with 3 arguments : ");
+        System.out.println("Name of ordered person : "+o5.name);
+        System.out.println("order Id : "+o5.id);
+        System.out.println("order category : "+o5.category);
+        System.out.println("Ordered brand : "+o5.brand);
+        System.out.println("Cost of order : "+o5.price);
+        System.out.println("Rating for order : "+o5.rating);
+        System.out.println("Weight of order : "+o5.weight);
 
     }
 

@@ -36,6 +36,16 @@ public class order {
         this.weight = 0;
 
     }
+    order(String name,int id,String category){
+        this.name = name;
+        this.id = id;
+        this.category = "UnKnown";
+        this.brand = "-";
+        this.price = 0.0;
+        this.rating = 0.0;
+        this.weight = 0;
+
+    }
 }
 
 
