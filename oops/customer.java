@@ -12,7 +12,7 @@ public class customer {
 
     customer() {
         this.name = "unknown";
-        this.address="-"
+        this.address="-";
         this.phoneNo = "0";
         this.age = 0;
         this.gender = "-";

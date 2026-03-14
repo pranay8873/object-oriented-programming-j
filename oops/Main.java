@@ -21,18 +21,20 @@ public class Main {
         System.out.println("Gender : "+cu2.gender);
         System.out.println("Region : "+cu2.region);
         System.out.println("object 2 with arguments : ");
-        customer cu3=new customer("Samuel","8121914849",30,"M",6690,"samuelp@gmail.com","India");
+        customer cu3=new customer("Samuel","miryalaguda","8121914849",30,"M",6690,"samuelp@gmail.com","India");
         System.out.println("Name : "+cu3.name);
         System.out.println("Age : "+cu3.age);
+        System.out.println("Address: "+cu3.address);
         System.out.println("phone number : "+cu3.phoneNo);
         System.out.println("Email : "+cu3.email);
         System.out.println("customer Id : "+cu3.cos_Id);
         System.out.println("Gender : "+cu3.gender);
         System.out.println("Region : "+cu3.region);
         System.out.println("object 3 with arguments : ");
-        customer cu4=new customer("Vaishnavi","9885419060",45,"-",6670,"vaishnavich@gmail.com","India");
+        customer cu4=new customer("Vaishnavi","sarronagar","9885419060",45,"-",6670,"vaishnavich@gmail.com","India");
         System.out.println("Name : "+cu4.name);
         System.out.println("Age : "+cu4.age);
+        System.out.println("Address: "+cu4.address);
         System.out.println("phone number : "+cu4.phoneNo);
         System.out.println("Email : "+cu4.email);
         System.out.println("customer Id : "+cu4.cos_Id);
@@ -47,8 +49,8 @@ public class Main {
         System.out.println("customer Id : "+cu5.cos_Id);
         System.out.println("Gender : "+cu5.gender);
         System.out.println("Region : "+cu5.region);
-        b=cu6.co
-
+        boolean b=cu5.c_status();
+        System.out.println(b);
 
     }
 }
