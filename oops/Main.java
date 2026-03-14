@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Gender : "+cu.gender);
         System.out.println("Region : "+cu.region);
         System.out.println("object with arguments : ");
-        customer cu2=new customer("pranay","8919836703",20,"M",6699,"pranaypuvvati@gmail.com","India");
+        customer cu2=new customer("pranay","karmanghat","8919836703",20,"M",6699,"pranaypuvvati@gmail.com","India");
         System.out.println("Name : "+cu2.name);
         System.out.println("Age : "+cu2.age);
         System.out.println("phone number : "+cu2.phoneNo);
@@ -47,6 +47,7 @@ public class Main {
         System.out.println("customer Id : "+cu5.cos_Id);
         System.out.println("Gender : "+cu5.gender);
         System.out.println("Region : "+cu5.region);
+        b=cu6.co
 
 
     }

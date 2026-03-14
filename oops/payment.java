@@ -4,6 +4,6 @@ public class payment {
     float amount;
     String payment_mode;
     String name;
-    
+
 
 }
