@@ -46,6 +46,21 @@ public class order {
         this.weight = 0;
 
     }
+    void print_data(){
+        System.out.println("Name of ordered person : "+this.name);
+        System.out.println("order Id : "+this.id);
+        System.out.println("order category : "+this.category);
+        System.out.println("Ordered brand : "+this.brand);
+        System.out.println("Cost of order : "+this.price);
+        System.out.println("Rating for order : "+this.rating);
+        System.out.println("Weight of order : "+this.weight);
+    }
+    void change_name(String name){
+        System.out.println("name changed from "+this.name+"to "+name);
+        this.name=name;
+
+    }
+
 }
 
 

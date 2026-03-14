@@ -47,7 +47,9 @@ public class ordermain {
         System.out.println("Cost of order : "+o5.price);
         System.out.println("Rating for order : "+o5.rating);
         System.out.println("Weight of order : "+o5.weight);
-
+        order o6=new order("brahma teja",80,"clothes","Max",499.50,4.5f,500);
+        o6.print_data();
     }
+
 
 }
