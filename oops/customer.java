@@ -45,19 +45,37 @@ public class customer {
         System.out.println("Address changed from "+this.address+" to "+address);
         this.address=address;
     }
-    boolean c_status(){
-        if(this.name.equals("unknown")){
+    void print(){
+        System.out.println("Name : "+this.name);
+        System.out.println("Age : "+this.age);
+        System.out.println("phone number : "+this.phoneNo);
+        System.out.println("Email : "+this.email);
+        System.out.println("customer Id : "+this.cos_Id);
+        System.out.println("Gender : "+this.gender);
+        System.out.println("Region : "+this.region);
+    }
+    boolean c_status() {
+        if (this.name.equals("unknown")) {
             System.out.println("customer is inactive");
             return false;
-        }else {
+        } else {
             System.out.println("customer is active ");
             return true;
+        }
+    }
+    void c_delete(){
+            this.name = "unknown";
+            this.address="-";
+            this.phoneNo = "0";
+            this.age = 0;
+            this.gender = "-";
+            this.cos_Id = 0;
+            this.email = "Unknown";
+            this.region = "Unknown";
+        System.out.println("Deleted customer data");
+
         }
 
 
     }
 
-
-    //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-    // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-}

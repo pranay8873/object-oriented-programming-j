@@ -41,16 +41,18 @@ public class Main {
         System.out.println("Gender : "+cu4.gender);
         System.out.println("Region : "+cu4.region);
         customer cu5=new customer("Pranay","9885058158");
-        System.out.println("object with only 2  arguments : ");
-        System.out.println("Name : "+cu5.name);
-        System.out.println("Age : "+cu5.age);
-        System.out.println("phone number : "+cu5.phoneNo);
-        System.out.println("Email : "+cu5.email);
-        System.out.println("customer Id : "+cu5.cos_Id);
-        System.out.println("Gender : "+cu5.gender);
-        System.out.println("Region : "+cu5.region);
+//        System.out.println("object with only 2  arguments : ");
+//        System.out.println("Name : "+cu5.name);
+//        System.out.println("Age : "+cu5.age);
+//        System.out.println("phone number : "+cu5.phoneNo);
+//        System.out.println("Email : "+cu5.email);
+//        System.out.println("customer Id : "+cu5.cos_Id);
+//        System.out.println("Gender : "+cu5.gender);
+//        System.out.println("Region : "+cu5.region);
         boolean b=cu5.c_status();
         System.out.println(b);
-
+        cu5.print();
+        cu.c_delete();
+        cu.print();
     }
 }
