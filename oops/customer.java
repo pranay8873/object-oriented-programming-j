@@ -3,7 +3,7 @@ package com.java.oops;
 public class customer {
     String name;
     String address;
-    String phoneNo;
+    long phoneNo;
     int age;
     String gender;
     int cos_Id;
@@ -13,7 +13,7 @@ public class customer {
     customer() {
         this.name = "unknown";
         this.address="-";
-        this.phoneNo = "0";
+        this.phoneNo = 0;
         this.age = 0;
         this.gender = "-";
         this.cos_Id = 0;
@@ -21,7 +21,7 @@ public class customer {
         this.region = "Unknown";
     }
 
-    customer(String name,String address, String phoneNo, int age, String gender, int cos_Id, String email, String region) {
+    customer(String name,String address, long phoneNo, int age, String gender, int cos_Id, String email, String region) {
         this.name = name;
         this.address=address;
         this.phoneNo = phoneNo;
@@ -31,7 +31,7 @@ public class customer {
         this.email = email;
         this.region = region;
     }
-    customer(String name,String phoneNo) {
+    customer(String name,long phoneNo) {
         this.name = name;
         this.address="-";
         this.phoneNo = phoneNo;
@@ -66,7 +66,7 @@ public class customer {
     void c_delete(){
             this.name = "unknown";
             this.address="-";
-            this.phoneNo = "0";
+            this.phoneNo = 0;
             this.age = 0;
             this.gender = "-";
             this.cos_Id = 0;
@@ -75,6 +75,15 @@ public class customer {
         System.out.println("Deleted customer data");
 
         }
+    boolean number_validate(){
+        int length=String.valueOf(this.phoneNo).length();
+        if(length==10){
+            return true;
+        }else{
+            return false;
+        }
+
+    }
 
 
     }

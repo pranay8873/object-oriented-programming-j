@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Gender : "+cu.gender);
         System.out.println("Region : "+cu.region);
         System.out.println("object with arguments : ");
-        customer cu2=new customer("pranay","karmanghat","8919836703",20,"M",6699,"pranaypuvvati@gmail.com","India");
+        customer cu2=new customer("pranay","karmanghat",8919836703L,20,"M",6699,"pranaypuvvati@gmail.com","India");
         System.out.println("Name : "+cu2.name);
         System.out.println("Age : "+cu2.age);
         System.out.println("phone number : "+cu2.phoneNo);
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Gender : "+cu2.gender);
         System.out.println("Region : "+cu2.region);
         System.out.println("object 2 with arguments : ");
-        customer cu3=new customer("Samuel","miryalaguda","8121914849",30,"M",6690,"samuelp@gmail.com","India");
+        customer cu3=new customer("Samuel","miryalaguda",81219849L,30,"M",6690,"samuelp@gmail.com","India");
         System.out.println("Name : "+cu3.name);
         System.out.println("Age : "+cu3.age);
         System.out.println("Address: "+cu3.address);
@@ -31,7 +31,7 @@ public class Main {
         System.out.println("Gender : "+cu3.gender);
         System.out.println("Region : "+cu3.region);
         System.out.println("object 3 with arguments : ");
-        customer cu4=new customer("Vaishnavi","sarronagar","9885419060",45,"-",6670,"vaishnavich@gmail.com","India");
+        customer cu4=new customer("Vaishnavi","sarronagar",9885419060L,45,"-",6670,"vaishnavich@gmail.com","India");
         System.out.println("Name : "+cu4.name);
         System.out.println("Age : "+cu4.age);
         System.out.println("Address: "+cu4.address);
@@ -40,7 +40,7 @@ public class Main {
         System.out.println("customer Id : "+cu4.cos_Id);
         System.out.println("Gender : "+cu4.gender);
         System.out.println("Region : "+cu4.region);
-        customer cu5=new customer("Pranay","9885058158");
+        customer cu5=new customer("Pranay",9885058158L);
 //        System.out.println("object with only 2  arguments : ");
 //        System.out.println("Name : "+cu5.name);
 //        System.out.println("Age : "+cu5.age);
@@ -54,5 +54,7 @@ public class Main {
         cu5.print();
         cu.c_delete();
         cu.print();
+        boolean vn= cu3.number_validate();
+        System.out.println(vn);
     }
 }
