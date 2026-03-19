@@ -38,4 +38,40 @@ public class customer {
         System.out.println("Gender : "+this.gender);
         System.out.println("Region : "+this.region);
     }
-}
+    public static customer getCustomerById(customer[] c, int id){
+
+        for(customer cust : c){
+            if(cust.cos_Id == id){
+                return cust;
+            }
+        }
+
+        return null;
+    }
+    public static customer getCustomerByName(customer[] c, String name){
+
+        for(customer cust : c){
+            if(cust.name == name){
+                return cust;
+            }
+        }
+
+        return null;
+    }
+    public static customer getCustomerBelowAge(customer[] c, int age){
+
+        for(customer cust : c){
+            if(cust.age <= age){
+                System.out.println(cust.name+" age is below "+age+" years");
+                cust.printCustomerDetails();
+                return cust;
+            }
+        }
+
+        return null;
+    }
+
+
+
+    }
+

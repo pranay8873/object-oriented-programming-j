@@ -20,6 +20,18 @@ public class main {
             System.out.println("---------customer details-------------");
             c.printCustomerDetails();
         }
+
+        customer result = customer.getCustomerById(cu,6699);
+
+        if(result != null){
+            System.out.println("Found customer Data : ");
+            result.printCustomerDetails();
+        }else{
+            System.out.println("Customer not found");
+        }
+        for (int i=0;i<cu.length;i++){
+            customer cuu=customer.getCustomerBelowAge(cu,50);
+        }
     }
 
 }
