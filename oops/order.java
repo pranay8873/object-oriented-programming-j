@@ -8,10 +8,14 @@ public class order {
     double price;
     double rating;
     double weight;
+    final static String WEBSITE_NAME="Flipcart.com";
+    final static long CU_CARE_NO=8919836703L;
+    final static String REGION="INDIA";
+
     order() {
         this.name = "not defined";
         this.id = 0;
-        this.category = "UnKnown";
+        this.category = "Unknown";
         this.brand = "-";
         this.price = 0.0;
         this.rating = 0.0;
@@ -29,7 +33,7 @@ public class order {
     order(String name,int id){
         this.name = name;
         this.id = id;
-        this.category = "UnKnown";
+        this.category = "Unknown";
         this.brand = "-";
         this.price = 0.0;
         this.rating = 0.0;
@@ -39,7 +43,7 @@ public class order {
     order(String name,int id,String category){
         this.name = name;
         this.id = id;
-        this.category = "UnKnown";
+        this.category = "Unknown";
         this.brand = "-";
         this.price = 0.0;
         this.rating = 0.0;
@@ -54,6 +58,9 @@ public class order {
         System.out.println("Cost of order : "+this.price);
         System.out.println("Rating for order : "+this.rating);
         System.out.println("Weight of order : "+this.weight);
+        System.out.println("Name Of Website : "+this.WEBSITE_NAME);
+        System.out.println("Customer care number : "+this.CU_CARE_NO);
+        System.out.println("Region : "+this.REGION);
     }
     void change_name(String name){
         System.out.println("name changed from "+this.name+"to "+name);
