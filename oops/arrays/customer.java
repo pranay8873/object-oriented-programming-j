@@ -64,7 +64,7 @@ public class customer {
             if(cust.age <= age){
                 System.out.println(cust.name+" age is below "+age+" years");
                 cust.printCustomerDetails();
-                return cust;
+//                return cust;
             }
         }
 
