@@ -11,5 +11,9 @@ public class Strings {
         name4=name2+name3;
         System.out.println(name4);
         System.out.println(name4.length());
+        System.out.println(name2.toUpperCase());
+        System.out.println(name2);
+        name2=name2.toUpperCase();
+        System.out.println(name2);
     }
 }
