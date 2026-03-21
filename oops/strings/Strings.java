@@ -18,6 +18,16 @@ public class Strings {
         name2=name2.toUpperCase();
         System.out.println(name2);
         Scanner sc=new Scanner(System.in);
+        System.out.println("Your initial credentials are : ");
+        System.out.println("User name : user1256");
+        System.out.println("Password : Password@cse");
+        System.out.println("Enter user name : ");
+        String userName=sc.nextLine();
+        System.out.println("Enter password : ");
+        String password=sc.nextLine();
+        if(userName==user1256 && password.equals("Password@cse"))
         
+
+
     }
 }
