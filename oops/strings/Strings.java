@@ -1,5 +1,7 @@
 package com.java.oops.strings;
 
+import java.util.Scanner;
+
 public class Strings {
     public static void main(String[] args) {
         String name=new String("pranay" );
@@ -15,5 +17,7 @@ public class Strings {
         System.out.println(name2);
         name2=name2.toUpperCase();
         System.out.println(name2);
+        Scanner sc=new Scanner(System.in);
+        
     }
 }
