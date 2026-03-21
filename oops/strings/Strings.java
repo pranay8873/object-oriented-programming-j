@@ -25,8 +25,19 @@ public class Strings {
         String userName=sc.nextLine();
         System.out.println("Enter password : ");
         String password=sc.nextLine();
-        if(userName==user1256 && password.equals("Password@cse"))
-        
+        if(userName.equals("user1256") && password.equals("Password@cse")){
+            System.out.println("Set your new Username And Password : ");
+            System.out.println("User name : ");
+            userName= sc.nextLine();
+            System.out.println("Password : ");
+            password=sc.nextLine();
+            System.out.println("Your Updated Credentials are : ");
+            System.out.println("username: "+userName);
+            System.out.println("Password: "+password);
+        }else {
+            System.out.println();
+        }
+
 
 
     }
