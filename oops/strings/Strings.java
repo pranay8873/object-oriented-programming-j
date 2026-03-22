@@ -32,11 +32,13 @@ public class Strings {
             System.out.println("Password : ");
             password=sc.nextLine();
              if (password.matches("[a-zA-Z0-9@]") ){
+                 System.out.println("Your Updated Credentials are : ");
+                 System.out.println("username: "+userName);
+                 System.out.println("Password: "+password);
+            }else {
+                 System.out.println("");
+             }
 
-            }
-            System.out.println("Your Updated Credentials are : ");
-            System.out.println("username: "+userName);
-            System.out.println("Password: "+password);
         } else {
             System.out.println("Entered Wrong Credentials retry!!");
         }
