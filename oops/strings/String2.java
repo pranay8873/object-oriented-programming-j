@@ -7,6 +7,8 @@ public class String2 {
         System.out.println(Str);
         String Str2=Str.concat(" from concat method");
         System.out.println("Str remains unchanged even after concat with Str2 : "+Str+" Str2= "+Str2);
+        // charat() method acceses the char at the given index
+        System.out.println(Str.charAt(3));
 
     }
 }
