@@ -13,6 +13,8 @@ public class String2 {
         String Str3="hello world";
         System.out.println(Str.equals(Str3));
         System.out.println(Str.equalsIgnoreCase(Str3));
+        //contains() method returns weather the given sub-string is present in the string of not it returns boolean
+        System.out.println(Str.contains("Hell"));
 
     }
 }
