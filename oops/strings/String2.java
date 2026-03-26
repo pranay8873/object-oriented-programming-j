@@ -7,7 +7,6 @@ public class String2 {
         System.out.println(Str);
         String Str2=Str.replace("H","p");
         System.out.println(Str2);
-        String[] Parts=Str.split(" ");
-        System.out.println(Parts[1]);
+
     }
 }
