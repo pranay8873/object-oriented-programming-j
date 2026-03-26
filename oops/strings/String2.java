@@ -5,7 +5,8 @@ public class String2 {
         String Str="Hello World";
         System.out.println(Str.substring(2,6));
         System.out.println(Str);
-       
+        String Str2=Str.replace("H","p");
+        System.out.println(Str2);
 
     }
 }
