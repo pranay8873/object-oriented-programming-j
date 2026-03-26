@@ -5,5 +5,8 @@ public class String3 {
         String Str="Hello World";
         String[] Parts=Str.split(" ");
         System.out.println(Parts[0]);
+        String Str2=new String("Hello World");
+        System.out.println(Str == Str2);
+        System.out.println(Str.equals(Str2));
     }
 }
